@@ -1,6 +1,5 @@
 const refs = {
   formEl: document.querySelector(".login-form"),
-  submitBtn: document.querySelector("button"),
 };
 
 refs.formEl.addEventListener("submit", onSubmitFormEl);
